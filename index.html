@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta lang="es">
+    <meta charset="utf-8">
+    <title>Practica 1-Calificaciones</title>
+  </head>
+  <!--Comienzan los estilos-->
+  <style media="screen">
+  body {
+    background:url(imagenes/image.jpg); /*  imagen de fondo */
+    background-size: cover; /* imagen al 100% del ancho */
+    background-repeat: no-repeat; /* no se repetira */
+    background-position: 0px 0px; /* El background-position trabaja con el primer valor de izquierda a derecha y el segundo valor de arriba hacia abajo*/
+    background-attachment: fixed; /* Estableci una posicion fija para la imagen */
+
+    font-family:helvetica, arial, sans-serif;
+    line-height:20px;
+    color: #fff;
+  }
+
+  .contenedor {
+    width: 95%;
+    max-width:1000px;
+    margin:auto;
+  }
+  article {
+	  background:rgba(24,8,33,.9);
+	  padding:20px;
+	  margin:20px 0;
+	  color:#fff;
+	  box-shadow:0 5px 5px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+
+  }
+  article hr {
+	  background:#F64740;
+	  height:5px;
+	  border:none;
+  }
+
+  img {
+	   float: left;
+     margin-top: 200px;
+     border-radius: 70px;
+  }
+
+  </style>
+<!--Terminan los estilos CSS-->
+
+
+<!--Comienza la estructuracion del DOM-->
+  <body>
+
+      <img src="imagenes/logo.jpg" height="100" width="100"  style="margin-top: 0px;">
+      <img src="imagenes/logo.jpg" height="100" width="100"  style="margin-top: 0px; margin-left:1100px;" >
+
+    <div class="contenedor">
+        <h1 style="text-align: center;">
+          Francisco Javier Solis Martinez
+        </h1>
+        <h2 align="center">
+          Colegio de Estudios Cientificos y Tecnologicos
+        </h2>
+    <img src="imagenes/user.jpg" height="260" width="260">
+
+    <article>
+    <table style="border: dotted;" align="center" cellspacing="0" cellpadding="5">
+      <caption>Tabla de Calificaciones - Carrera: Soporte y Mantenimiento de Computo <hr></caption>
+      <tr>
+        <td height="50" width="180" style="border: dotted;" align="center">
+          Materia
+        </td>
+        <td style="border: dotted;" align="center">
+          Parcial 1
+        </td>
+        <td style="border: dotted;" align="center">
+          Parcial 2
+        </td>
+      </tr>
+      <tr>
+        <td height="50" width="180"  style="border: dotted;">
+          Matematicas Aplicadas
+        </td>
+        <td style="border: dotted;" align="center">10</td>
+        <td style="border: dotted;" align="center">10</td>
+        <tr>
+          <td height="50" width="180"  style="border: dotted;">Temas de Filosofia</td>
+          <td style="border: dotted;" align="center">10</td>
+          <td style="border: dotted;" align="center">10</td>
+        </tr>
+        <tr>
+          <td  height="50" width="180" style="border: dotted;">Temas de Fisica</td>
+          <td style="border: dotted;" align="center">10</td>
+          <td style="border: dotted;" align="center">10</td>
+        </tr>
+        <tr>
+          <td height="50" width="180" style="border: dotted;">Administra la red LAN</td>
+          <td style="border: dotted;" align="center">10</td>
+          <td style="border: dotted;" align="center">10</td>
+        </tr>
+        <tr>
+          <td height="50" width="180" style="border: dotted;">Programa de Valores</td>
+          <td style="border: dotted;" align="center">10</td>
+          <td style="border: dotted;" align="center">10</td>
+        </tr>
+        <tr>
+          <td height="50" width="180" style="border: dotted;">Probabilidad y Estadistica</td>
+          <td style="border: dotted;" align="center">9</td>
+          <td style="border: dotted;" align="center">10</td>
+        </tr>
+        <tr>
+          <td style="border: dotted;">Actualiza los recursos de la red LAN con base a los requerimientos de la organizacion</td>
+          <td style="border: dotted;" align="center">10</td>
+          <td style="border: dotted;" align="center">10</td>
+        </tr>
+      </tr>
+    </table>
+    </article>
+    </div>
+  </body>
+</html>
