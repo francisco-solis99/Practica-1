@@ -1,0 +1,82 @@
+
+/*/*Estilos*/
+
+body{
+	background: rgba(24,8,33,.9);
+	color: #fff;
+}
+
+.encabezado{
+	background: rgba(82, 150, 212, 0.7);
+	box-shadow:0 5px 5px 3px rgba(0, 0, 0, 0.25); 
+	border-radius: 20%;
+}
+
+.encabezado h1{
+	text-align:center; 
+	box-shadow:0 5px 5px 3px rgba(0, 0, 0, 0.25);
+}
+
+.foto {
+	background:url(imagenes/awesome.jpg);
+	width: 50%; 
+	float: left;
+	background-size: cover; 
+	border-radius: 20%;
+	box-shadow:0 5px 5px 3px rgba(0, 0, 0, 0.25);
+}
+
+.foto img{
+	width: 50%; 
+	border-radius: 50%; 
+	padding: 20%; 
+	margin-left: 5%;
+}
+
+.info{
+	float: right; 
+	width: 50%; 
+	background:rgba(195, 34, 15, 0.7);
+	box-shadow:0 5px 5px 3px rgba(0, 0, 0, 0.25);
+	border-radius: 40px;
+}
+
+.info h1, h2{
+	text-align: center;
+}
+
+.info article{
+	margin-left: 5%; 
+	color: #fff;
+	margin-left: 5%;
+}
+
+.info #resumen{
+	font-family:helvetica, arial, sans-serif;
+	line-height:20px;
+	
+}
+
+
+.contactame{
+	font-family:helvetica, arial, sans-serif; 
+	text-align:center; 
+	background:rgba(31, 113, 0, 0.7); 
+	float: left; 
+	width: 99%; 
+	margin-top: 20px; 
+	border-radius: 10%; 
+	box-shadow:0 5px 5px 3px rgba(0, 0, 0, 0.25);
+}
+
+.contactame #izquierda{
+	float: left; 
+	margin-left: 30%;
+}
+
+.contactame #derecha{
+	float:right; 
+	margin-right: 25%;
+}
+
+
