@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta lang="es">
+	<meta charset="utf-8">
+	<title>Calculadora</title>
+	<link rel="stylesheet" type="text/css" href="css/	styles.css">
+	<script type="text/javascript" src="js/codigo.js"></script>
+</head>
+<body style="background-image: url(imagenes/montains.jpg); background-size: cover; ">
+	<div class="calculadora">
+	<form name="formulario">
+		<h1>Calculadora CASIO Web</h1>
+		<table>
+			<tr>
+				<td colspan="6"><input type="text" name="resultados" id="result" value="" class="resultado" onkeypress="return justNumeros(event)"></td>
+			</tr>
+		
+			<tr>
+				<td><input type="button" id="7" value="7" onclick="ponerNumeros(value)" class="fila1"></td>
+				<td><input type="button" id="8" value="8" onclick="ponerNumeros(value)" class="fila1"></td>
+				<td><input type="button" id="9" value="9" onclick="ponerNumeros(value)" class="fila1"></td>
+				<td><input type="button" id="plus" value="+" onclick="comprobar(value)" class="fila2"></td>
+			</tr>
+			
+			<tr>
+				<td><input type="button" id="4" value="4" onclick="ponerNumeros(value)" class="fila1"></td>
+				<td><input type="button" id="5" value="5" onclick="ponerNumeros(value)" class="fila1"></td>
+				<td><input type="button" id="6" value="6" onclick="ponerNumeros(value)" class="fila1"></td>
+				<td><input type="button" id="subtract" value="-" onclick="comprobar(value)" class="fila2"></td>
+			</tr>
+
+			<tr>
+				<td><input type="button" id="1" value="1" onclick="ponerNumeros(value)" class="fila1"></td>
+				<td><input type="button" id="2" value="2" onclick="ponerNumeros(value)" class="fila1"></td>
+				<td><input type="button" id="3" value="3" onclick="ponerNumeros(value)" class="fila1"></td>
+				<td><input type="button" id="multi" value="*" onclick="comprobar(value)" class="fila2"></td>
+			</tr>
+		
+			<tr>
+				<td><input type="button" id="clear" value="CL" onclick="eliminarTodo()" class="fila1"></td>
+
+				<td><input type="button" id="0" value="0" onclick="ponerNumeros(value)" class="fila1"></td>
+
+				<td><input type="button" id="igual" value="=" onclick="calcular()" class="fila1"></td>
+
+				<td><input type="button" id="div" value="/" onclick="comprobar(value)" class="fila2"></td>
+			</tr>
+
+
+		</table>
+	</form>
+	</div>
+</body>
+</html>
+

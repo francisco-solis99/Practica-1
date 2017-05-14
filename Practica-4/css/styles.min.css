@@ -1,0 +1,3 @@
+*{margin:0;padding:0}body{background-image:url()}form{background-color:rgba(45,38,121,0.7)}.calculadora{margin-left:35%;position:relative;top:125px}.resultado{width:96.2%;height:80px;font-family:Arial,Helvetica;color:white;background:#808080;font-size:30px}
+.fila1{font-size:30px;font-family:Arial,Helvetica;color:white;border:0;background-color:rgba(200,139,35,0.9);width:80px;height:80px;text-align:center;margin-top:.3%}
+.fila2{font-size:30px;font-family:Arial,Helvetica;color:#000;border:0;background-color:rgba(91,174,247,0.7);width:80px;height:80px;text-align:center}
